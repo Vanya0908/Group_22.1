@@ -1,0 +1,11 @@
+1)Summary
+2)Project
+3)Component
+4)Version
+5)Severity
+6)Priority
+7)Author
+8)Assigned to
+9)Enviroment
+10)Description
+11)Additions
