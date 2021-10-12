@@ -7,7 +7,7 @@
  7. Вывести id, имя, email и дату создания пользователей:select user_id,username,email,created_on from qa_users;
  8. Вывести пользователей где password 12333:select * from qa_users where password = '12333';
  9. Вывести пользователей которые были созданы 2021-03-26 00:00:00:select * from qa_users where created_on = '2021-03-26 00:00:00';
- 10. Вывести пользователей где в имени есть слово Анна:select * from qa_users where username = 'Anna';
+ 10. Вывести пользователей где в имени есть слово Анна:select * from qa_users where username like'%Anna%';
  11. Вывести пользователей где в имени в конце есть 8:select * from qa_users where username like '%8';
  12. Вывести пользователей где в имени в есть буква а:select * from qa_users where username like '%a%';
  13. Вывести пользователей которые были созданы 2021-07-12 00:00:00:select * from qa_users where created_on = '2021-07-12 00:00:00';
@@ -28,5 +28,5 @@
  28. Вывести минимальный id:select min(user_id) from qa_users;
  29. Вывести максимальный:select max(user_id) from qa_users;
  30. Вывести количество пользователей:select count(*) from qa_users;
- 31. Вывести id пользователя, имя, дату создания пользователя. Отсортировать по порядку возрастания даты добавления пользоватлеля:select user_id,username,created_on from qa_users order by created_on ASC;
+ 31. Вывести id пользователя, имя, дату создания пользователя. Отсортировать по порядку возрастания даты добавления пользоватлеля:select user_id,username,created_on from qa_users order by created_on;
  32. Вывести id пользователя, имя, дату создания пользователя. Отсортировать по порядку убывания даты добавления пользоватлеля:select user_id,username,created_on from qa_users order by created_on DESC;
