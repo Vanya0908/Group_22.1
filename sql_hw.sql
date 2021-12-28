@@ -11,9 +11,9 @@
   Вывести пользователей где в имени в конце есть 8:select * from qa_users where username like '%8';
   Вывести пользователей где в имени в есть буква а:select * from qa_users where username like '%a%';
   Вывести пользователей которые были созданы 2021-07-12 00:00:00:select * from qa_users where created_on = '2021-07-12 00:00:00';
-  Вывести пользователей которые были созданы 2021-07-12 00:00:00 и имеют пароль 1m313:select * from qa_users where created_on = '2021-07-12 00:00:00' and password = '1m313';
-  Вывести пользователей которые были созданы 2021-07-12 00:00:00 и у которых в имени есть слово Andrey:select * from qa_users where created_on = '2021-07-12 00:00:00' and username like '%Andrey%';
-  Вывести пользователей которые были созданы 2021-07-12 00:00:00 и у которых в имени есть цифра 8:select * from qa_users where created_on = '2021-07-12 00:00:00' and username like '%8%';
+  Вывести пользователей которые были созданы 2021-07-12 00:00:00 и имеют пароль 1m313:select * from qa_users where created_on = '2021-07-12 00:00:00' or password = '1m313';
+  Вывести пользователей которые были созданы 2021-07-12 00:00:00 и у которых в имени есть слово Andrey:select * from qa_users where created_on = '2021-07-12 00:00:00' or username like '%Andrey%';
+  Вывести пользователей которые были созданы 2021-07-12 00:00:00 и у которых в имени есть цифра 8:select * from qa_users where created_on = '2021-07-12 00:00:00' or username like '%8%';
   Вывести пользователя у которых id равен 10:select * from qa_users where user_id = '10';
   Вывести пользователя у которых id равен 53:select * from qa_users where user_id = '53';
   Вывести пользователя у которых id больше 40:select * from qa_users where user_id >'40';
