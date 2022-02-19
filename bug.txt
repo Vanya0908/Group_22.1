@@ -5,8 +5,8 @@ Precondition
 STR
 Actual result
 Expected result
-Severity
 Priority
+Severity
 Attachments
 Workaround
 Reproducibility
