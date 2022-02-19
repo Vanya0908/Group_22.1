@@ -1,0 +1,12 @@
+ID
+Title
+Environment
+Precondition
+STR
+Actual result
+Expected result
+Severity
+Priority
+Attachments
+Workaround
+Reproducibility
